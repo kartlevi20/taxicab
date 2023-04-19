@@ -1,0 +1,1933 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-11-30 00:03+0200\n"
+"PO-Revision-Date: 2017-06-19 17:54+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: elementor/controls/control-image.php:11
+msgid "Parallax"
+msgstr ""
+
+#: elementor/controls/control-image.php:19
+msgid "Effect visible only on frontend."
+msgstr ""
+
+#: elementor/controls/control-image.php:26
+msgid "Image Parallax"
+msgstr ""
+
+#: elementor/controls/control-image.php:34
+msgid "Factor"
+msgstr ""
+
+#: elementor/controls/control-image.php:36
+msgid "From -1.0 to 1.0"
+msgstr ""
+
+#: elementor/controls/control-image.php:44
+msgid "Factor Lg"
+msgstr ""
+
+#: elementor/controls/control-image.php:53
+msgid "Factor Md"
+msgstr ""
+
+#: elementor/controls/control-image.php:62
+msgid "Factor Sm"
+msgstr ""
+
+#: elementor/controls/control-image.php:71
+msgid "Factor Xs"
+msgstr ""
+
+#: elementor/controls/control-image.php:73
+msgid "If empty previous value used"
+msgstr ""
+
+#: elementor/controls/control-image.php:81
+#: elementor/shortcodes/effects/effects.php:37
+#: elementor/shortcodes/icons/icons.php:36
+#: elementor/shortcodes/zoomslider/zoomslider.php:67
+msgid "Type"
+msgstr ""
+
+#: elementor/controls/control-image.php:85
+msgid "Foreground"
+msgstr ""
+
+#: elementor/controls/control-image.php:86 elementor/shortcodes/cf7/cf7.php:89
+msgid "Background"
+msgstr ""
+
+#: elementor/controls/control-image.php:94
+msgid "Direction"
+msgstr ""
+
+#: elementor/controls/control-image.php:98
+msgid "Vertical"
+msgstr ""
+
+#: elementor/controls/control-image.php:99
+msgid "Horizontal"
+msgstr ""
+
+#: elementor/controls/control-section.php:11
+#: elementor/shortcodes/blog/blog.php:47
+#: elementor/shortcodes/button/button.php:60
+#: elementor/shortcodes/header/header.php:165
+#: elementor/shortcodes/icons/icons.php:245
+#: elementor/shortcodes/icons/icons.php:307
+#: elementor/shortcodes/products/products.php:81
+#: elementor/shortcodes/products/products.php:203
+msgid "Default"
+msgstr ""
+
+#: elementor/controls/control-section.php:19
+msgid "Theme Background"
+msgstr ""
+
+#: elementor/controls/control-section.php:21
+msgid "Can be replaced be Elementor settings."
+msgstr ""
+
+#: elementor/controls/control-section.php:31
+msgid "Background Parallax"
+msgstr ""
+
+#: elementor/controls/control-section.php:32
+msgid "May require page reload in order to take an action."
+msgstr ""
+
+#: elementor/controls/control-section.php:43
+#: elementor/controls/control-section.php:73
+#: elementor/shortcodes/icons/icons.php:275
+#: elementor/shortcodes/icons/icons.php:291
+#: elementor/shortcodes/partners/partners.php:57
+msgid "None"
+msgstr ""
+
+#: elementor/controls/control-section.php:51
+msgid "Theme Overlay"
+msgstr ""
+
+#: elementor/controls/control-section.php:61
+msgid "Theme Overlay Mobile Only"
+msgstr ""
+
+#: elementor/controls/control-section.php:70
+msgid "Theme Particles"
+msgstr ""
+
+#: elementor/elementor.php:122 inc/dashboard.php:52 inc/dashboard.php:53
+msgid "Like Themes"
+msgstr ""
+
+#: elementor/fontello/fontello.php:31
+msgid "lte-limme"
+msgstr ""
+
+#: elementor/init.php:58 elementor/init.php:89
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: elementor/init.php:59 elementor/init.php:74 elementor/init.php:90
+msgid "LTE Extension"
+msgstr ""
+
+#: elementor/init.php:60
+msgid "Elementor"
+msgstr ""
+
+#: elementor/init.php:73
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" Theme."
+msgstr ""
+
+#: elementor/init.php:75
+msgid "Limme"
+msgstr ""
+
+#: elementor/init.php:91
+msgid "PHP"
+msgstr ""
+
+#: elementor/shortcodes/blog/blog.php:13
+msgid "Blog"
+msgstr ""
+
+#: elementor/shortcodes/blog/blog.php:35 elementor/shortcodes/blog/blog.php:42
+#: elementor/shortcodes/button/button.php:29
+#: elementor/shortcodes/cf7/cf7.php:44
+#: elementor/shortcodes/countup/countup.php:33
+#: elementor/shortcodes/effects/effects.php:29
+#: elementor/shortcodes/gallery/gallery.php:31
+#: elementor/shortcodes/gallery/gallery.php:46
+#: elementor/shortcodes/googlemaps/googlemaps.php:55
+#: elementor/shortcodes/header/header.php:29
+#: elementor/shortcodes/icons/icons.php:29
+#: elementor/shortcodes/icons/icons.php:51
+#: elementor/shortcodes/instagram/instagram.php:29
+#: elementor/shortcodes/menu/menu.php:36 elementor/shortcodes/menu/menu.php:63
+#: elementor/shortcodes/navmenu/navmenu.php:39
+#: elementor/shortcodes/partners/partners.php:29
+#: elementor/shortcodes/product-categories/product-categories.php:43
+#: elementor/shortcodes/products/products.php:47
+#: elementor/shortcodes/products/products.php:62
+#: elementor/shortcodes/rental/rental.php:36
+#: elementor/shortcodes/rental/rental.php:51
+#: elementor/shortcodes/services/services.php:36
+#: elementor/shortcodes/services/services.php:51
+#: elementor/shortcodes/slide-background/slide-background.php:31
+#: elementor/shortcodes/slider-full/slider-full.php:50
+#: elementor/shortcodes/tariff/tariff.php:29
+#: elementor/shortcodes/team/team.php:35 elementor/shortcodes/team/team.php:50
+#: elementor/shortcodes/testimonials/testimonials.php:43
+#: elementor/shortcodes/testimonials/testimonials.php:58
+#: elementor/shortcodes/video/video.php:29
+#: elementor/shortcodes/zoomslider/zoomslider.php:52
+msgid "Layout"
+msgstr ""
+
+#: elementor/shortcodes/blog/blog.php:46
+msgid "Featured Section"
+msgstr ""
+
+#: elementor/shortcodes/blog/blog.php:55
+#: elementor/shortcodes/gallery/gallery.php:71
+#: elementor/shortcodes/instagram/instagram.php:72
+#: elementor/shortcodes/menu/menu.php:86
+#: elementor/shortcodes/product-categories/product-categories.php:64
+#: elementor/shortcodes/products/products.php:118
+#: elementor/shortcodes/rental/rental.php:76
+#: elementor/shortcodes/services/services.php:76
+#: elementor/shortcodes/team/team.php:75
+#: elementor/shortcodes/testimonials/testimonials.php:83
+#: widgets/gallery/class-widget-gallery.php:23
+msgid "Limit"
+msgstr ""
+
+#: elementor/shortcodes/blog/blog.php:64
+#: elementor/shortcodes/product-categories/product-categories.php:73
+#: elementor/shortcodes/testimonials/testimonials.php:92
+msgid "Columns"
+msgstr ""
+
+#: elementor/shortcodes/blog/blog.php:79
+msgid "Excerpt Display"
+msgstr ""
+
+#: elementor/shortcodes/blog/blog.php:87
+msgid "Excerpt Size"
+msgstr ""
+
+#: elementor/shortcodes/blog/blog.php:96 elementor/shortcodes/menu/menu.php:51
+#: elementor/shortcodes/product-categories/product-categories.php:90
+#: elementor/shortcodes/products/products.php:139
+#: elementor/shortcodes/rental/rental.php:65
+#: elementor/shortcodes/services/services.php:65
+#: elementor/shortcodes/team/team.php:64
+#: elementor/shortcodes/testimonials/testimonials.php:72
+#: elementor/shortcodes/zoomslider/zoomslider.php:82
+msgid "Category"
+msgstr ""
+
+#: elementor/shortcodes/blog/blog.php:119 elementor/shortcodes/menu/menu.php:95
+#: elementor/shortcodes/products/products.php:168
+#: elementor/shortcodes/rental/rental.php:85
+#: elementor/shortcodes/services/services.php:88
+msgid "Order By"
+msgstr ""
+
+#: elementor/shortcodes/blog/blog.php:123 elementor/shortcodes/menu/menu.php:99
+#: elementor/shortcodes/products/products.php:172
+#: elementor/shortcodes/rental/rental.php:89
+#: elementor/shortcodes/services/services.php:92
+msgid "Date"
+msgstr ""
+
+#: elementor/shortcodes/blog/blog.php:124
+#: elementor/shortcodes/menu/menu.php:100
+#: elementor/shortcodes/products/products.php:173
+#: elementor/shortcodes/rental/rental.php:90
+#: elementor/shortcodes/services/services.php:93
+msgid "ID"
+msgstr ""
+
+#: elementor/shortcodes/blog/blog.php:125
+#: elementor/shortcodes/products/products.php:174
+msgid "Menu Order"
+msgstr ""
+
+#: elementor/shortcodes/blog/blog.php:126
+#: elementor/shortcodes/menu/menu.php:101
+#: elementor/shortcodes/products/products.php:175
+#: elementor/shortcodes/rental/rental.php:91
+#: elementor/shortcodes/services/services.php:94
+msgid "Title"
+msgstr ""
+
+#: elementor/shortcodes/blog/blog.php:127
+#: elementor/shortcodes/menu/menu.php:102
+#: elementor/shortcodes/products/products.php:176
+#: elementor/shortcodes/rental/rental.php:92
+#: elementor/shortcodes/services/services.php:95
+msgid "Random"
+msgstr ""
+
+#: elementor/shortcodes/blog/blog.php:136
+#: elementor/shortcodes/menu/menu.php:111
+#: elementor/shortcodes/products/products.php:185
+#: elementor/shortcodes/rental/rental.php:101
+#: elementor/shortcodes/services/services.php:104
+msgid "Sort Order"
+msgstr ""
+
+#: elementor/shortcodes/blog/blog.php:140
+#: elementor/shortcodes/menu/menu.php:115
+#: elementor/shortcodes/products/products.php:189
+#: elementor/shortcodes/rental/rental.php:105
+#: elementor/shortcodes/services/services.php:108
+msgid "Descending"
+msgstr ""
+
+#: elementor/shortcodes/blog/blog.php:141
+#: elementor/shortcodes/menu/menu.php:116
+#: elementor/shortcodes/products/products.php:190
+#: elementor/shortcodes/rental/rental.php:106
+#: elementor/shortcodes/services/services.php:109
+msgid "Ascending"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:13
+msgid "Button"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:36
+#: elementor/shortcodes/cf7/cf7.php:62
+#: elementor/shortcodes/countup/countup.php:65
+#: elementor/shortcodes/header/header.php:49
+#: elementor/shortcodes/header/header.php:52
+#: elementor/shortcodes/icons/icons.php:139
+#: elementor/shortcodes/instagram/instagram.php:81
+#: elementor/shortcodes/partners/partners.php:75
+#: elementor/shortcodes/tariff/tariff.php:36
+#: elementor/shortcodes/video/video.php:60
+#: widgets/icons/class-widget-icons.php:51
+msgid "Header"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:38
+#: elementor/shortcodes/rental/rental.php:116
+#: elementor/shortcodes/services/services.php:119
+msgid "Read More"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:55
+#: elementor/shortcodes/header/header.php:144
+msgid "Size"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:59
+#: elementor/shortcodes/header/header.php:150
+#: elementor/shortcodes/header/header.php:254
+#: elementor/shortcodes/icons/icons.php:77
+#: elementor/shortcodes/icons/icons.php:90
+#: elementor/shortcodes/icons/icons.php:261
+msgid "Large"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:61
+#: elementor/shortcodes/header/header.php:153
+#: elementor/shortcodes/header/header.php:253
+#: elementor/shortcodes/icons/icons.php:75
+#: elementor/shortcodes/icons/icons.php:92
+#: elementor/shortcodes/icons/icons.php:260
+msgid "Small"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:69
+msgid "Background Color"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:73
+#: elementor/shortcodes/button/button.php:91
+#: elementor/shortcodes/header/header.php:167
+#: elementor/shortcodes/header/header.php:184
+msgid "Main Color"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:74
+#: elementor/shortcodes/button/button.php:92
+#: elementor/shortcodes/header/header.php:168
+#: elementor/shortcodes/header/header.php:185
+msgid "Second Color"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:75
+#: elementor/shortcodes/button/button.php:93
+#: elementor/shortcodes/header/header.php:166
+#: elementor/shortcodes/header/header.php:183
+#: elementor/shortcodes/icons/icons.php:232
+#: elementor/shortcodes/icons/icons.php:278
+#: elementor/shortcodes/icons/icons.php:294
+#: elementor/shortcodes/icons/icons.php:310
+msgid "Black"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:76
+#: elementor/shortcodes/button/button.php:94
+#: elementor/shortcodes/cf7/cf7.php:93
+#: elementor/shortcodes/header/header.php:169
+#: elementor/shortcodes/header/header.php:186
+#: elementor/shortcodes/icons/icons.php:233
+#: elementor/shortcodes/icons/icons.php:279
+#: elementor/shortcodes/icons/icons.php:295
+#: elementor/shortcodes/icons/icons.php:311
+msgid "White"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:77
+#: elementor/shortcodes/cf7/cf7.php:92
+msgid "Transparent"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:86
+msgid "Hover Background Color"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:90
+msgid "Default Color"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:95
+#: elementor/shortcodes/cf7/cf7.php:95
+msgid "Gray"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:104
+msgid "Position"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:108
+msgid "One in row"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:109
+msgid "Inline buttons"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:117
+#: widgets/banner/class-widget-banner.php:24
+msgid "Target"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:121
+#: elementor/shortcodes/partners/partners.php:41
+#: widgets/banner/class-widget-banner.php:27
+#: widgets/icons/class-widget-icons.php:36
+msgid "Current window"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:122
+msgid "Popup"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:123
+#: elementor/shortcodes/partners/partners.php:42
+#: widgets/banner/class-widget-banner.php:28
+#: widgets/icons/class-widget-icons.php:37
+msgid "New window"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:131
+#: elementor/shortcodes/header/header.php:204
+msgid "Align"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:135
+#: elementor/shortcodes/header/header.php:208
+#: elementor/shortcodes/products/products.php:93
+msgid "Left"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:139
+#: elementor/shortcodes/header/header.php:212
+#: elementor/shortcodes/products/products.php:94
+#: elementor/shortcodes/zoomslider/zoomslider.php:198
+msgid "Center"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:143
+#: elementor/shortcodes/header/header.php:216
+#: elementor/shortcodes/products/products.php:95
+msgid "Right"
+msgstr ""
+
+#: elementor/shortcodes/button/button.php:160
+#: elementor/shortcodes/button/button.php:167
+#: elementor/shortcodes/countup/countup.php:112
+#: elementor/shortcodes/header/header.php:233
+#: elementor/shortcodes/header/header.php:240
+#: elementor/shortcodes/icons/icons.php:169
+#: elementor/shortcodes/icons/icons.php:176
+#: widgets/banner/class-widget-banner.php:37
+#: widgets/icons/class-widget-icons.php:47
+msgid "Icon"
+msgstr ""
+
+#: elementor/shortcodes/cf7/cf7.php:13
+msgid "Contact Form 7"
+msgstr ""
+
+#: elementor/shortcodes/cf7/cf7.php:38
+msgid "No contact forms found"
+msgstr ""
+
+#: elementor/shortcodes/cf7/cf7.php:51
+msgid "Contact Form"
+msgstr ""
+
+#: elementor/shortcodes/cf7/cf7.php:55
+msgid "Select form created in Contacts menu of the dashboard"
+msgstr ""
+
+#: elementor/shortcodes/cf7/cf7.php:71
+#: elementor/shortcodes/header/header.php:36
+#: elementor/shortcodes/header/header.php:38
+msgid "Subheader"
+msgstr ""
+
+#: elementor/shortcodes/cf7/cf7.php:80 elementor/shortcodes/icons/icons.php:187
+#: elementor/shortcodes/icons/icons.php:326
+#: widgets/banner/class-widget-banner.php:32
+#: widgets/icons/class-widget-icons.php:56
+msgid "Text"
+msgstr ""
+
+#: elementor/shortcodes/cf7/cf7.php:94 elementor/shortcodes/icons/icons.php:230
+#: elementor/shortcodes/icons/icons.php:276
+#: elementor/shortcodes/icons/icons.php:292
+#: elementor/shortcodes/icons/icons.php:308
+#: elementor/shortcodes/products/products.php:108
+msgid "Main"
+msgstr ""
+
+#: elementor/shortcodes/cf7/cf7.php:96
+msgid "black"
+msgstr ""
+
+#: elementor/shortcodes/cf7/cf7.php:119
+#: elementor/shortcodes/icons/icons.php:361
+#: elementor/shortcodes/products/products.php:223
+msgid "Inner Padding"
+msgstr ""
+
+#: elementor/shortcodes/cf7/cf7.php:128
+msgid "Full-width Button"
+msgstr ""
+
+#: elementor/shortcodes/countup/countup.php:13
+msgid "Countup"
+msgstr ""
+
+#: elementor/shortcodes/countup/countup.php:40
+#: elementor/shortcodes/header/header.php:80
+#: elementor/shortcodes/icons/icons.php:219
+#: elementor/shortcodes/products/products.php:77
+#: elementor/shortcodes/video/video.php:46
+msgid "Style"
+msgstr ""
+
+#: elementor/shortcodes/countup/countup.php:44
+msgid "Animated"
+msgstr ""
+
+#: elementor/shortcodes/countup/countup.php:45
+#: elementor/shortcodes/gallery/gallery.php:52
+#: elementor/shortcodes/team/team.php:56
+#: elementor/shortcodes/testimonials/testimonials.php:64
+msgid "Static"
+msgstr ""
+
+#: elementor/shortcodes/countup/countup.php:83
+msgid "Ending Number"
+msgstr ""
+
+#: elementor/shortcodes/countup/countup.php:93
+msgid "Number Prefix"
+msgstr ""
+
+#: elementor/shortcodes/countup/countup.php:103
+msgid "Number Suffix"
+msgstr ""
+
+#: elementor/shortcodes/effects/effects.php:13
+msgid "Effects"
+msgstr ""
+
+#: elementor/shortcodes/effects/effects.php:41
+msgid "Smoke"
+msgstr ""
+
+#: elementor/shortcodes/effects/effects.php:42
+msgid "Dots Animated"
+msgstr ""
+
+#: elementor/shortcodes/effects/effects.php:43
+msgid "Square Animated"
+msgstr ""
+
+#: elementor/shortcodes/effects/effects.php:44
+msgid "Large Square Animated"
+msgstr ""
+
+#: elementor/shortcodes/gallery/gallery.php:13 post-types/gallery.php:6
+#: post-types/gallery.php:7 post-types/gallery.php:8 post-types/gallery.php:9
+msgid "Gallery"
+msgstr ""
+
+#: elementor/shortcodes/gallery/gallery.php:39
+msgid "The content of galleries can be edited in Gallery menu of Dashboard."
+msgstr ""
+
+#: elementor/shortcodes/gallery/gallery.php:51
+#: elementor/shortcodes/product-categories/product-categories.php:102
+#: elementor/shortcodes/products/products.php:67
+#: elementor/shortcodes/products/products.php:234
+#: elementor/shortcodes/testimonials/testimonials.php:63
+msgid "Slider"
+msgstr ""
+
+#: elementor/shortcodes/gallery/gallery.php:60
+msgid "Album"
+msgstr ""
+
+#: elementor/shortcodes/gallery/gallery.php:80
+msgid "Lightbox Links"
+msgstr ""
+
+#: elementor/shortcodes/googlemaps/googlemaps.php:39
+msgid "Google Maps"
+msgstr ""
+
+#: elementor/shortcodes/googlemaps/googlemaps.php:101
+msgid "Latitude"
+msgstr ""
+
+#: elementor/shortcodes/googlemaps/googlemaps.php:111
+msgid "Longitude"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:13
+msgid "Heading"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:51
+msgid "Use braces {{ to insert inline subheader }}"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:60
+msgid "Watermark"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:72
+#: elementor/shortcodes/icons/icons.php:156
+#: elementor/shortcodes/partners/partners.php:84
+msgid "Href"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:84
+#: elementor/shortcodes/products/products.php:66
+msgid "Simple"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:85
+msgid "With Subheader Above"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:86
+msgid "Italic"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:99
+msgid "Additonal"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:103
+msgid "--"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:104
+msgid "Underline"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:112
+msgid "Tag"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:116
+msgid "Heading 1"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:117
+msgid "Heading 2"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:118
+#: elementor/shortcodes/header/header.php:133
+msgid "Heading 3"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:119
+#: elementor/shortcodes/header/header.php:134
+msgid "Heading 4"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:120
+#: elementor/shortcodes/header/header.php:135
+msgid "Heading 5"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:121
+#: elementor/shortcodes/header/header.php:136
+msgid "Heading 6"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:129
+msgid "Sub Tag"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:148
+msgid "Default tag"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:149
+#: elementor/shortcodes/icons/icons.php:89
+msgid "Extra Large"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:151
+msgid "Big"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:152
+#: elementor/shortcodes/icons/icons.php:76
+#: elementor/shortcodes/icons/icons.php:91
+msgid "Medium"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:161
+#: elementor/shortcodes/icons/icons.php:303
+msgid "Header Color"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:170
+#: elementor/shortcodes/header/header.php:187
+msgid "Outline"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:178
+msgid "Subheader Color"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:182
+msgid "Inherit from Header"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:195
+msgid "Default Margin"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:249
+#: elementor/shortcodes/icons/icons.php:85
+msgid "Icon Size"
+msgstr ""
+
+#: elementor/shortcodes/header/header.php:262
+msgid "Icon Shadow"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:13
+msgid "Icons Block"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:41
+msgid "Icon Top"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:42
+msgid "Icon Left"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:43
+msgid "Icon Right"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:56
+msgid "Six Columns"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:57
+msgid "Five Columns"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:58
+msgid "Four Columns"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:59
+msgid "Three Columns"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:60
+#: elementor/shortcodes/menu/menu.php:68
+msgid "Two Columns"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:61
+#: elementor/shortcodes/menu/menu.php:69
+msgid "One Column"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:62
+msgid "Inline"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:70
+msgid "Space Between"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:93
+msgid "Extra Small"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:101
+msgid "Alignment"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:124
+#: elementor/shortcodes/partners/partners.php:36
+#: widgets/icons/class-widget-icons.php:33
+msgid "Link Target"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:129
+msgid "Self"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:130
+msgid "New Window"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:131
+msgid "Swipebox"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:147
+msgid "Description"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:194
+msgid "Icon Text"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:207
+#: elementor/shortcodes/partners/partners.php:102
+#: widgets/icons/class-widget-icons.php:41
+msgid "Items"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:226
+msgid "Icon Color"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:231
+#: elementor/shortcodes/icons/icons.php:277
+#: elementor/shortcodes/icons/icons.php:293
+#: elementor/shortcodes/icons/icons.php:309
+#: elementor/shortcodes/products/products.php:109
+msgid "Second"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:241
+msgid "Icon Shape"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:246
+msgid "Circle"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:247
+msgid "Square"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:255
+msgid "Icon Padding"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:259
+#: elementor/shortcodes/icons/icons.php:339
+#: elementor/shortcodes/icons/icons.php:352
+#: elementor/shortcodes/products/products.php:246
+#: elementor/shortcodes/products/products.php:260
+#: elementor/shortcodes/zoomslider/zoomslider.php:112
+#: elementor/shortcodes/zoomslider/zoomslider.php:141
+#: elementor/shortcodes/zoomslider/zoomslider.php:154
+msgid "Disabled"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:271
+msgid "Icon Background"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:287
+msgid "Icon Border"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:319
+msgid "Header Size"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:323
+msgid "H4"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:324
+msgid "H5"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:325
+msgid "H6"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:327
+msgid "Small Text"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:335
+msgid "Divider"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:340
+msgid "Dashed"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:348
+msgid "Additional"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:353
+msgid "Gray Boxes"
+msgstr ""
+
+#: elementor/shortcodes/icons/icons.php:371
+msgid "Hover Animation"
+msgstr ""
+
+#: elementor/shortcodes/instagram/instagram.php:13
+msgid "Instagram"
+msgstr ""
+
+#: elementor/shortcodes/instagram/instagram.php:36
+msgid "Instagram Username"
+msgstr ""
+
+#: elementor/shortcodes/instagram/instagram.php:45
+msgid "Cache, sec"
+msgstr ""
+
+#: elementor/shortcodes/instagram/instagram.php:47
+msgid "Recommended - 3600. Set empty to disable cache"
+msgstr ""
+
+#: elementor/shortcodes/instagram/instagram.php:55
+msgid "Thumbnail Size"
+msgstr ""
+
+#: elementor/shortcodes/instagram/instagram.php:84
+msgid "Use {{ brackets }} to highlight string or leave empty."
+msgstr ""
+
+#: elementor/shortcodes/instagram/instagram.php:85
+msgid "Header {{ Subheader }}"
+msgstr ""
+
+#: elementor/shortcodes/instagram/instagram.php:92
+msgid "Header Link"
+msgstr ""
+
+#: elementor/shortcodes/menu/menu.php:13
+#: elementor/shortcodes/navmenu/navmenu.php:46 post-types/menu.php:7
+#: widgets/navmenu/class-widget-navmenu.php:34
+msgid "Menu"
+msgstr ""
+
+#: elementor/shortcodes/menu/menu.php:44
+msgid "The content of menu can be edited in Menu menu of Dashboard."
+msgstr ""
+
+#: elementor/shortcodes/menu/menu.php:77
+msgid "Scroll Bar"
+msgstr ""
+
+#: elementor/shortcodes/navmenu/navmenu.php:13
+msgid "Navmenu"
+msgstr ""
+
+#: elementor/shortcodes/partners/partners.php:13
+msgid "Partners"
+msgstr ""
+
+#: elementor/shortcodes/partners/partners.php:50
+msgid "Hover Effect"
+msgstr ""
+
+#: elementor/shortcodes/partners/partners.php:55
+msgid "Opacity"
+msgstr ""
+
+#: elementor/shortcodes/partners/partners.php:56
+msgid "Scale"
+msgstr ""
+
+#: elementor/shortcodes/partners/partners.php:64
+msgid "Logos x2"
+msgstr ""
+
+#: elementor/shortcodes/partners/partners.php:65
+msgid "Size will be decreased to predefined max-height"
+msgstr ""
+
+#: elementor/shortcodes/partners/partners.php:93
+#: elementor/shortcodes/slide-background/slide-background.php:40
+msgid "Image"
+msgstr ""
+
+#: elementor/shortcodes/product-categories/product-categories.php:21
+msgid "Product Categories"
+msgstr ""
+
+#: elementor/shortcodes/product-categories/product-categories.php:111
+msgid "Slider Effect"
+msgstr ""
+
+#: elementor/shortcodes/product-categories/product-categories.php:115
+msgid "Swipe"
+msgstr ""
+
+#: elementor/shortcodes/product-categories/product-categories.php:116
+msgid "Coverflow"
+msgstr ""
+
+#: elementor/shortcodes/product-categories/product-categories.php:158
+#: elementor/shortcodes/products/products.php:271
+msgid "Responsive Columns"
+msgstr ""
+
+#: elementor/shortcodes/product-categories/product-categories.php:164
+#: elementor/shortcodes/products/products.php:276
+msgid "Extra Large Desktop, 1600px"
+msgstr ""
+
+#: elementor/shortcodes/product-categories/product-categories.php:165
+#: elementor/shortcodes/products/products.php:277
+msgid "Large Desktop, 1200px,"
+msgstr ""
+
+#: elementor/shortcodes/product-categories/product-categories.php:166
+#: elementor/shortcodes/products/products.php:278
+msgid "Notebook, 1000px"
+msgstr ""
+
+#: elementor/shortcodes/product-categories/product-categories.php:167
+#: elementor/shortcodes/products/products.php:279
+msgid "Tablet, 768px"
+msgstr ""
+
+#: elementor/shortcodes/product-categories/product-categories.php:168
+#: elementor/shortcodes/products/products.php:280
+msgid "Horizontal Mobile, 480px"
+msgstr ""
+
+#: elementor/shortcodes/product-categories/product-categories.php:169
+#: elementor/shortcodes/products/products.php:281
+msgid "Mobile"
+msgstr ""
+
+#: elementor/shortcodes/products/products.php:25
+msgid "Products"
+msgstr ""
+
+#: elementor/shortcodes/products/products.php:55
+msgid "The Frontend display of products layout may by different due to the limits of Elementor."
+msgstr ""
+
+#: elementor/shortcodes/products/products.php:68
+msgid "Categories filter with Slider"
+msgstr ""
+
+#: elementor/shortcodes/products/products.php:69
+msgid "Categories filter without Slider"
+msgstr ""
+
+#: elementor/shortcodes/products/products.php:89
+msgid "Categories Align"
+msgstr ""
+
+#: elementor/shortcodes/products/products.php:104
+msgid "Category Active Color"
+msgstr ""
+
+#: elementor/shortcodes/products/products.php:151
+msgid "Filter Ids"
+msgstr ""
+
+#: elementor/shortcodes/products/products.php:152
+msgid "Coma separated"
+msgstr ""
+
+#: elementor/shortcodes/products/products.php:160
+msgid "Featured Only"
+msgstr ""
+
+#: elementor/shortcodes/products/products.php:198
+msgid "Excerpt"
+msgstr ""
+
+#: elementor/shortcodes/products/products.php:200
+msgid "Default settings can be set in Theme Settings"
+msgstr ""
+
+#: elementor/shortcodes/products/products.php:204
+msgid "Force Display"
+msgstr ""
+
+#: elementor/shortcodes/products/products.php:205
+msgid "Force Hide"
+msgstr ""
+
+#: elementor/shortcodes/products/products.php:213
+msgid "Excerpt Cut, words"
+msgstr ""
+
+#: elementor/shortcodes/products/products.php:215
+msgid "Leave empty to set default from Theme Settings"
+msgstr ""
+
+#: elementor/shortcodes/products/products.php:242
+#: elementor/shortcodes/zoomslider/zoomslider.php:149
+msgid "Arrows"
+msgstr ""
+
+#: elementor/shortcodes/products/products.php:247
+msgid "Sides"
+msgstr ""
+
+#: elementor/shortcodes/products/products.php:248
+msgid "Bottom"
+msgstr ""
+
+#: elementor/shortcodes/products/products.php:256
+#: elementor/shortcodes/products/products.php:261
+#: elementor/shortcodes/zoomslider/zoomslider.php:136
+msgid "Bullets"
+msgstr ""
+
+#: elementor/shortcodes/rental/rental.php:13 post-types/rental.php:6
+#: post-types/rental.php:7 post-types/rental.php:8 post-types/rental.php:9
+msgid "Rental"
+msgstr ""
+
+#: elementor/shortcodes/rental/rental.php:44
+msgid "The content of rental can be edited in Rental menu of Dashboard."
+msgstr ""
+
+#: elementor/shortcodes/rental/rental.php:114
+#: elementor/shortcodes/services/services.php:117
+msgid "Read More Button"
+msgstr ""
+
+#: elementor/shortcodes/services/services.php:13 post-types/services.php:6
+#: post-types/services.php:8 post-types/services.php:9
+msgid "Services"
+msgstr ""
+
+#: elementor/shortcodes/services/services.php:44
+msgid "The content of services can be edited in Services menu of Dashboard."
+msgstr ""
+
+#: elementor/shortcodes/services/services.php:56
+msgid "Grid"
+msgstr ""
+
+#: elementor/shortcodes/services/services.php:57
+msgid "Photos Row"
+msgstr ""
+
+#: elementor/shortcodes/slide-background/slide-background.php:13
+msgid "Slide Images"
+msgstr ""
+
+#: elementor/shortcodes/slide-background/slide-background.php:49
+msgid "Images"
+msgstr ""
+
+#: elementor/shortcodes/slider-full/slider-full.php:26
+msgid "Products Slider"
+msgstr ""
+
+#: elementor/shortcodes/slider-full/slider-full.php:58
+msgid "The content of can be edited in Product Sliders menu of Dashboard. The correct output of slider will be visible only in frontend. This Shortcode used for full-height pages and may conflict with any other elements on the page."
+msgstr ""
+
+#: elementor/shortcodes/slider-full/slider-full.php:65
+msgid "Black Pattern"
+msgstr ""
+
+#: elementor/shortcodes/slider-full/slider-full.php:74
+msgid "White Pattern"
+msgstr ""
+
+#: elementor/shortcodes/tariff/tariff.php:13
+msgid "Tariff"
+msgstr ""
+
+#: elementor/shortcodes/tariff/tariff.php:46
+msgid "Price"
+msgstr ""
+
+#: elementor/shortcodes/tariff/tariff.php:48
+msgid "Use brackets to set units as postfix (for ex: {{ /unit }} )"
+msgstr ""
+
+#: elementor/shortcodes/tariff/tariff.php:57
+msgid "List"
+msgstr ""
+
+#: elementor/shortcodes/tariff/tariff.php:59
+msgid "To set yes prefix use {+}, to set no prefix use {-}"
+msgstr ""
+
+#: elementor/shortcodes/tariff/tariff.php:66
+msgid "Button Header"
+msgstr ""
+
+#: elementor/shortcodes/tariff/tariff.php:75
+msgid "Button Link"
+msgstr ""
+
+#: elementor/shortcodes/tariff/tariff.php:84
+msgid "VIP"
+msgstr ""
+
+#: elementor/shortcodes/tariff/tariff.php:92
+#: widgets/banner/class-widget-banner.php:41
+msgid "Background Image"
+msgstr ""
+
+#: elementor/shortcodes/team/team.php:13 post-types/team.php:6
+#: post-types/team.php:7 post-types/team.php:8 post-types/team.php:9
+msgid "Team"
+msgstr ""
+
+#: elementor/shortcodes/team/team.php:43
+msgid "The content of team can be edited in Team menu of Dashboard."
+msgstr ""
+
+#: elementor/shortcodes/testimonials/testimonials.php:21
+#: post-types/testimonials.php:7 post-types/testimonials.php:9
+msgid "Testimonials"
+msgstr ""
+
+#: elementor/shortcodes/testimonials/testimonials.php:51
+msgid "The content of testimonials can be edited in Testimonials menu of Dashboard."
+msgstr ""
+
+#: elementor/shortcodes/testimonials/testimonials.php:106
+msgid "Excerpt Size (words)"
+msgstr ""
+
+#: elementor/shortcodes/video/video.php:13
+msgid "Video Popup"
+msgstr ""
+
+#: elementor/shortcodes/video/video.php:50
+msgid "Plain"
+msgstr ""
+
+#: elementor/shortcodes/video/video.php:51
+msgid "Solid"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:29
+msgid "Like Slider"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:60
+msgid "The content of Zoom Slider can be edited in Sliders menu of Dashboard."
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:72
+msgid "Zoom Slider"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:73
+msgid "Swipe Slider"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:106
+msgid "Overlay"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:110
+msgid "Black Overlay"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:111
+msgid "Black with Gradient Overlay"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:140
+#: elementor/shortcodes/zoomslider/zoomslider.php:153
+msgid "Enabled"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:164
+msgid "Animation"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:171
+msgid "Zoom"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:175
+msgid "Zoom In"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:176
+msgid "Zoom Out"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:177
+msgid "Fade Only"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:188
+msgid "Zoom Origin"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:193
+msgid "Top Left"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:194
+msgid "Top Center"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:195
+msgid "Top-Right"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:197
+msgid "Center Left"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:199
+msgid "Center Right"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:201
+msgid "Bottom Left"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:202
+msgid "Bottom Center"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:203
+msgid "Bottom Right"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:214
+msgid "Zoom Effect Speed, ms"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:228
+msgid "Interval between slides, ms"
+msgstr ""
+
+#: elementor/shortcodes/zoomslider/zoomslider.php:241
+msgid "Switch Speed, ms"
+msgstr ""
+
+#: inc/dashboard.php:24 inc/dashboard.php:25 inc/dashboard.php:421
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/dashboard.php:107 inc/dashboard.php:112
+msgid "Welcome to"
+msgstr ""
+
+#: inc/dashboard.php:113
+msgid "Thank you for choosing our theme. Here we will help you with basic installation and configuration."
+msgstr ""
+
+#: inc/dashboard.php:125
+msgid "WordPress Version"
+msgstr ""
+
+#: inc/dashboard.php:127
+msgid "Your WordPress version is outdated. Due to the security and compatability reasons it is recommended to use 5.x version."
+msgstr ""
+
+#: inc/dashboard.php:143
+msgid "PHP Version"
+msgstr ""
+
+#: inc/dashboard.php:145
+msgid "Your PHP version is lower than recommended by "
+msgstr ""
+
+#: inc/dashboard.php:147
+msgid "WordPress requirements"
+msgstr ""
+
+#: inc/dashboard.php:148
+msgid "Due to the security and compatability reasons it is recommended to use 7.x version."
+msgstr ""
+
+#: inc/dashboard.php:164
+msgid "PHP Multibyte Extension"
+msgstr ""
+
+#: inc/dashboard.php:166
+msgid "Multibyte Extension is recommend to support UTF-8 encoding in theme and plugins. If you are using hosting panel you can try to enable it in "
+msgstr ""
+
+#: inc/dashboard.php:168 inc/dashboard.php:186
+msgid "settings"
+msgstr ""
+
+#: inc/dashboard.php:182
+msgid "PHP ZIP Module"
+msgstr ""
+
+#: inc/dashboard.php:184
+msgid "Demo content installation requires Zip Module on your server. If you are using Cpanel you can try to enable it in "
+msgstr ""
+
+#: inc/dashboard.php:200
+msgid "LiteSpeed Server"
+msgstr ""
+
+#: inc/dashboard.php:202
+msgid "Your website is hosted using the LiteSpeed web server. Please consult this"
+msgstr ""
+
+#: inc/dashboard.php:204
+msgid "article"
+msgstr ""
+
+#: inc/dashboard.php:205
+msgid "if you have problems with Demo Content installation."
+msgstr ""
+
+#: inc/dashboard.php:225 inc/dashboard.php:248
+msgid "Unyson"
+msgstr ""
+
+#: inc/dashboard.php:227
+msgid "Unyson plugin is required for full theme functionality. Please install and activate it in"
+msgstr ""
+
+#: inc/dashboard.php:229
+msgid "plugins"
+msgstr ""
+
+#: inc/dashboard.php:230 inc/dashboard.php:249
+msgid " menu."
+msgstr ""
+
+#: inc/dashboard.php:244
+msgid "Unyson Backup Extension"
+msgstr ""
+
+#: inc/dashboard.php:246
+msgid "Unyson Backup Extension is required for demo content installation. Please install and activate it in"
+msgstr ""
+
+#: inc/dashboard.php:282
+msgid "PHP post_max_size"
+msgstr ""
+
+#: inc/dashboard.php:284 inc/dashboard.php:303
+msgid "Minimum 32M is required. You can try to change it with "
+msgstr ""
+
+#: inc/dashboard.php:286 inc/dashboard.php:305 inc/dashboard.php:323
+#: inc/dashboard.php:341
+msgid " Custom PHP Settings plugin"
+msgstr ""
+
+#: inc/dashboard.php:287 inc/dashboard.php:306 inc/dashboard.php:324
+#: inc/dashboard.php:342
+msgid "If it don't help you need to contact your hosting support."
+msgstr ""
+
+#: inc/dashboard.php:301
+msgid "PHP upload_max_filesize"
+msgstr ""
+
+#: inc/dashboard.php:319
+msgid "PHP max_execution_time"
+msgstr ""
+
+#: inc/dashboard.php:321
+msgid "Minimum 600 is required to install demo content. You can try to change it with "
+msgstr ""
+
+#: inc/dashboard.php:337
+msgid "PHP memory_limit"
+msgstr ""
+
+#: inc/dashboard.php:339
+msgid "Minimum 128M is required. You can try to change it with "
+msgstr ""
+
+#: inc/dashboard.php:355
+msgid "System check"
+msgstr ""
+
+#: inc/dashboard.php:406
+msgid "Please note that WordPress and the theme could work on any configuration. All notices are only recommendations, but if you are experiencing any issues with demo content installation or the site, we recommend to check the table above. If you could not fix the server side issues by yourself, you need to contact hosting support and ask for help."
+msgstr ""
+
+#: inc/dashboard.php:415
+msgid "First steps"
+msgstr ""
+
+#: inc/dashboard.php:418
+msgid "Demo content installation"
+msgstr ""
+
+#: inc/dashboard.php:422
+msgid "Color Customization"
+msgstr ""
+
+#: inc/dashboard.php:425
+msgid "Favicon"
+msgstr ""
+
+#: inc/dashboard.php:432
+msgid "Documentation"
+msgstr ""
+
+#: inc/dashboard.php:437
+msgid "Support"
+msgstr ""
+
+#: post-types/gallery.php:10 post-types/menu.php:10 post-types/rental.php:10
+#: post-types/sections.php:10 post-types/services.php:10
+#: post-types/sliders-full.php:10 post-types/sliders.php:10
+#: post-types/team.php:10 post-types/testimonials.php:11
+msgid "Add New"
+msgstr ""
+
+#: post-types/gallery.php:11
+msgid "Add New Gallery"
+msgstr ""
+
+#: post-types/gallery.php:12
+msgid "New Gallery"
+msgstr ""
+
+#: post-types/gallery.php:13
+msgid "Edit Gallery"
+msgstr ""
+
+#: post-types/gallery.php:14
+msgid "View Gallery"
+msgstr ""
+
+#: post-types/gallery.php:15
+msgid "All Galleries"
+msgstr ""
+
+#: post-types/gallery.php:16
+msgid "Search Gallery"
+msgstr ""
+
+#: post-types/gallery.php:17
+msgid "Parent Gallery:"
+msgstr ""
+
+#: post-types/gallery.php:18 post-types/menu.php:18 post-types/rental.php:18
+#: post-types/rental.php:113 post-types/sections.php:18
+#: post-types/services.php:18 post-types/sliders-full.php:18
+#: post-types/sliders.php:18 post-types/team.php:18
+#: post-types/testimonials.php:19
+msgid "No items found."
+msgstr ""
+
+#: post-types/gallery.php:19 post-types/menu.php:19 post-types/rental.php:19
+#: post-types/sections.php:19 post-types/services.php:19
+#: post-types/sliders-full.php:19 post-types/sliders.php:19
+#: post-types/team.php:19 post-types/testimonials.php:20
+msgid "No items found in Trash."
+msgstr ""
+
+#: post-types/menu.php:6 post-types/menu.php:8 post-types/menu.php:9
+msgid "Menus"
+msgstr ""
+
+#: post-types/menu.php:11
+msgid "Add New Menu"
+msgstr ""
+
+#: post-types/menu.php:12
+msgid "New Menu"
+msgstr ""
+
+#: post-types/menu.php:13
+msgid "Edit Menu"
+msgstr ""
+
+#: post-types/menu.php:14
+msgid "View Menu"
+msgstr ""
+
+#: post-types/menu.php:15
+msgid "All Menus"
+msgstr ""
+
+#: post-types/menu.php:16
+msgid "Search Menus"
+msgstr ""
+
+#: post-types/menu.php:17
+msgid "Parent Menu:"
+msgstr ""
+
+#: post-types/rental.php:11
+msgid "Add New Rental"
+msgstr ""
+
+#: post-types/rental.php:12
+msgid "New Rental"
+msgstr ""
+
+#: post-types/rental.php:13
+msgid "Edit Rental"
+msgstr ""
+
+#: post-types/rental.php:14
+msgid "View Rental"
+msgstr ""
+
+#: post-types/rental.php:15
+msgid "All Rental"
+msgstr ""
+
+#: post-types/rental.php:16
+msgid "Search Rental"
+msgstr ""
+
+#: post-types/rental.php:17
+msgid "Parent Rental:"
+msgstr ""
+
+#: post-types/sections.php:6 post-types/sections.php:8
+#: post-types/sections.php:9
+msgid "Sections"
+msgstr ""
+
+#: post-types/sections.php:7
+msgid "Section"
+msgstr ""
+
+#: post-types/sections.php:11
+msgid "Add New Section"
+msgstr ""
+
+#: post-types/sections.php:12
+msgid "New Section"
+msgstr ""
+
+#: post-types/sections.php:13
+msgid "Edit Section"
+msgstr ""
+
+#: post-types/sections.php:14
+msgid "View Section"
+msgstr ""
+
+#: post-types/sections.php:15
+msgid "All Sections"
+msgstr ""
+
+#: post-types/sections.php:16
+msgid "Search Section"
+msgstr ""
+
+#: post-types/sections.php:17
+msgid "Parent Section:"
+msgstr ""
+
+#: post-types/services.php:7
+msgid "Service"
+msgstr ""
+
+#: post-types/services.php:11
+msgid "Add New Service"
+msgstr ""
+
+#: post-types/services.php:12
+msgid "New Service"
+msgstr ""
+
+#: post-types/services.php:13
+msgid "Edit Service"
+msgstr ""
+
+#: post-types/services.php:14
+msgid "View Service"
+msgstr ""
+
+#: post-types/services.php:15
+msgid "All Services"
+msgstr ""
+
+#: post-types/services.php:16
+msgid "Search Services"
+msgstr ""
+
+#: post-types/services.php:17
+msgid "Parent Service:"
+msgstr ""
+
+#: post-types/sliders-full.php:6 post-types/sliders-full.php:8
+#: post-types/sliders-full.php:9
+msgid "Product Sliders"
+msgstr ""
+
+#: post-types/sliders-full.php:7
+msgid "Product Slider"
+msgstr ""
+
+#: post-types/sliders-full.php:11 post-types/sliders.php:11
+msgid "Add New Sliders"
+msgstr ""
+
+#: post-types/sliders-full.php:12 post-types/sliders.php:12
+msgid "New Sliders"
+msgstr ""
+
+#: post-types/sliders-full.php:13 post-types/sliders.php:13
+msgid "Edit Sliders"
+msgstr ""
+
+#: post-types/sliders-full.php:14 post-types/sliders.php:14
+msgid "View Sliders"
+msgstr ""
+
+#: post-types/sliders-full.php:15 post-types/sliders.php:15
+msgid "All Sliders"
+msgstr ""
+
+#: post-types/sliders-full.php:16 post-types/sliders.php:16
+msgid "Search Sliders"
+msgstr ""
+
+#: post-types/sliders-full.php:17 post-types/sliders.php:17
+msgid "Parent Sliders:"
+msgstr ""
+
+#: post-types/sliders.php:6 post-types/sliders.php:7 post-types/sliders.php:8
+#: post-types/sliders.php:9
+msgid "Sliders"
+msgstr ""
+
+#: post-types/team.php:11
+msgid "Add New Team"
+msgstr ""
+
+#: post-types/team.php:12
+msgid "New Team"
+msgstr ""
+
+#: post-types/team.php:13
+msgid "Edit Team"
+msgstr ""
+
+#: post-types/team.php:14
+msgid "View Team"
+msgstr ""
+
+#: post-types/team.php:15
+msgid "All Team"
+msgstr ""
+
+#: post-types/team.php:16
+msgid "Search Team"
+msgstr ""
+
+#: post-types/team.php:17
+msgid "Parent Team:"
+msgstr ""
+
+#: post-types/testimonials.php:8 post-types/testimonials.php:10
+msgid "Testimonial"
+msgstr ""
+
+#: post-types/testimonials.php:12
+msgid "Add New Testimonial"
+msgstr ""
+
+#: post-types/testimonials.php:13
+msgid "New Testimonial"
+msgstr ""
+
+#: post-types/testimonials.php:14
+msgid "Edit Testimonial"
+msgstr ""
+
+#: post-types/testimonials.php:15
+msgid "View Testimonial"
+msgstr ""
+
+#: post-types/testimonials.php:16
+msgid "All Testimonials"
+msgstr ""
+
+#: post-types/testimonials.php:17
+msgid "Search Testimonials"
+msgstr ""
+
+#: post-types/testimonials.php:18
+msgid "Parent Testimonials:"
+msgstr ""
+
+#: widgets/banner/class-widget-banner.php:13
+msgid "Display two-col banner"
+msgstr ""
+
+#: widgets/banner/class-widget-banner.php:14
+msgid "LTE Banner"
+msgstr ""
+
+#: widgets/banner/class-widget-banner.php:19
+#: widgets/icons/class-widget-icons.php:61
+msgid "Link"
+msgstr ""
+
+#: widgets/banner/class-widget-banner.php:33
+msgid "Use {{ brackets }} to highlight string"
+msgstr ""
+
+#: widgets/banner/class-widget-banner.php:94
+#: widgets/blogposts/class-widget-blogposts.php:100
+#: widgets/gallery/class-widget-gallery.php:77
+#: widgets/icons/class-widget-icons.php:118
+#: widgets/navmenu/class-widget-navmenu.php:87
+msgid "Widget requires Unyson Framework installed"
+msgstr ""
+
+#: widgets/blogposts/class-widget-blogposts.php:13
+msgid "Display posts with photo"
+msgstr ""
+
+#: widgets/blogposts/class-widget-blogposts.php:14
+msgid "LTE Posts"
+msgstr ""
+
+#: widgets/blogposts/class-widget-blogposts.php:20
+#: widgets/gallery/class-widget-gallery.php:20
+#: widgets/icons/class-widget-icons.php:20
+#: widgets/navmenu/class-widget-navmenu.php:30
+msgid "Widget Title"
+msgstr ""
+
+#: widgets/blogposts/class-widget-blogposts.php:35
+msgid "Number of posts to show"
+msgstr ""
+
+#: widgets/blogposts/class-widget-blogposts.php:39
+msgid "Show thumbnail"
+msgstr ""
+
+#: widgets/blogposts/class-widget-blogposts.php:43
+msgid "Readmore Header"
+msgstr ""
+
+#: widgets/blogposts/class-widget-blogposts.php:47
+msgid "Readmore Link"
+msgstr ""
+
+#: widgets/gallery/class-widget-gallery.php:13
+msgid "Display last galleries"
+msgstr ""
+
+#: widgets/gallery/class-widget-gallery.php:14
+msgid "LTE Gallery"
+msgstr ""
+
+#: widgets/icons/class-widget-icons.php:13
+msgid "Display font-awesome icons"
+msgstr ""
+
+#: widgets/icons/class-widget-icons.php:14
+msgid "LTE Icons"
+msgstr ""
+
+#: widgets/icons/class-widget-icons.php:23
+msgid "List type"
+msgstr ""
+
+#: widgets/icons/class-widget-icons.php:26
+msgid "List with icons and text on right side"
+msgstr ""
+
+#: widgets/icons/class-widget-icons.php:27
+msgid "List with icons on the top"
+msgstr ""
+
+#: widgets/icons/class-widget-icons.php:29
+msgid "Small icons inline list"
+msgstr ""
+
+#: widgets/icons/class-widget-icons.php:30
+msgid "icons-inline-small"
+msgstr ""
+
+#: widgets/icons/class-widget-icons.php:44
+msgid "Items list with text on left side and button on right"
+msgstr ""
+
+#: widgets/icons/class-widget-icons.php:52
+msgid "(only for icon top)"
+msgstr ""
+
+#: widgets/icons/class-widget-icons.php:57
+msgid "User {{ brackets }} to highlight string"
+msgstr ""
+
+#: widgets/navmenu/class-widget-navmenu.php:13
+msgid "Displays two-column navmenu"
+msgstr ""
+
+#: widgets/navmenu/class-widget-navmenu.php:14
+msgid "LTE Navmenu"
+msgstr ""

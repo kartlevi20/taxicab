@@ -1,0 +1,19 @@
+2020-12-27T22:02:14+00:00 CRITICAL Uncaught Error: Call to undefined function fw_get_db_post_options() in C:\www\limme\wp-content\themes\limme\archive-rental.php:85
+Stack trace:
+#0 C:\www\limme\wp-includes\template-loader.php(106): include()
+#1 C:\www\limme\wp-blog-header.php(19): require_once('C:\\www\\limme\\wp...')
+#2 C:\www\limme\index.php(17): require('C:\\www\\limme\\wp...')
+#3 {main}
+  thrown in C:\www\limme\wp-content\themes\limme\archive-rental.php on line 85
+
+2020-12-27T22:41:52+00:00 CRITICAL Uncaught Error: Call to undefined function lte_parse_string() in C:\www\limme\wp-content\plugins\lte-ext\elementor\shortcodes\rental\view.php:76
+Stack trace:
+#0 C:\www\limme\wp-content\plugins\lte-ext\elementor\elementor.php(164): include()
+#1 C:\www\limme\wp-content\plugins\lte-ext\elementor\shortcodes\rental\rental.php(138): lte_sc_output('rental', Array)
+#2 C:\www\limme\wp-content\plugins\elementor\includes\base\controls-stack.php(1894): LTE_Rental_Widget->render()
+#3 C:\www\limme\wp-content\plugins\elementor\includes\base\widget-base.php(530): Elementor\Controls_Stack->render_by_mode()
+#4 C:\www\limme\wp-content\plugins\elementor\includes\base\widget-base.php(660): Elementor\Widget_Base->render_content()
+#5 C:\www\limme\wp-content\plugins\elementor\includes\base\element-base.php(644): Elementor\Widget_Base->_print_content()
+#6 C:\www\limme\wp-content\plugins\elementor\includes\base\element-base.php(864): Elementor\Element_Base->print_element()
+#7 C:\www\limme\wp-content\plugins\elementor\includes\base\ele in C:\www\limme\wp-content\plugins\lte-ext\elementor\shortcodes\rental\view.php on line 76
+

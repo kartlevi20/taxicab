@@ -1,0 +1,74 @@
+2023-03-09T07:28:06+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\limme\wp-content\plugins\lte-ext\inc\update.php:86
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(310): ltx_push_update(Object(stdClass))
+#1 C:\xampp\htdocs\limme\wp-includes\plugin.php(205): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 C:\xampp\htdocs\limme\wp-includes\option.php(1986): apply_filters('site_transient_...', Object(stdClass), 'update_plugins')
+#3 C:\xampp\htdocs\limme\wp-content\themes\limme\inc\plugins\class-tgm-plugin-activation.php(1851): get_site_transient('update_plugins')
+#4 C:\xampp\htdocs\limme\wp-content\themes\limme\inc\plugins\class-tgm-plugin-activation.php(1709): TGM_Plugin_Activation->does_plugin_have_update('elementor')
+#5 C:\xampp\htdocs\limme\wp-content\themes\limme\inc\plugins\class-tgm-plugin-activation.php(408): TGM_Plugin_Activation->is_tgmpa_complete()
+#6 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): TGM_Plugin_Activation->init('')
+#7 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\limme\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\limme\wp-settings.php(617): do_action('init')
+#10 C:\xampp\htdocs\limme\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\limme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\limme\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\limme\wp-admin\nav-menus.php(13): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\lte-ext\inc\update.php on line 86
+
+2023-03-09T07:30:51+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\limme\wp-content\plugins\lte-ext\inc\update.php:86
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(310): ltx_push_update(Object(stdClass))
+#1 C:\xampp\htdocs\limme\wp-includes\plugin.php(205): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 C:\xampp\htdocs\limme\wp-includes\option.php(1986): apply_filters('site_transient_...', Object(stdClass), 'update_plugins')
+#3 C:\xampp\htdocs\limme\wp-content\themes\limme\inc\plugins\class-tgm-plugin-activation.php(1851): get_site_transient('update_plugins')
+#4 C:\xampp\htdocs\limme\wp-content\themes\limme\inc\plugins\class-tgm-plugin-activation.php(1709): TGM_Plugin_Activation->does_plugin_have_update('elementor')
+#5 C:\xampp\htdocs\limme\wp-content\themes\limme\inc\plugins\class-tgm-plugin-activation.php(408): TGM_Plugin_Activation->is_tgmpa_complete()
+#6 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): TGM_Plugin_Activation->init('')
+#7 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\limme\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\limme\wp-settings.php(617): do_action('init')
+#10 C:\xampp\htdocs\limme\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\limme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\limme\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\limme\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\lte-ext\inc\update.php on line 86
+
+2023-03-09T07:31:10+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\limme\wp-content\plugins\lte-ext\inc\update.php:86
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(310): ltx_push_update(Object(stdClass))
+#1 C:\xampp\htdocs\limme\wp-includes\plugin.php(205): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 C:\xampp\htdocs\limme\wp-includes\option.php(1986): apply_filters('site_transient_...', Object(stdClass), 'update_plugins')
+#3 C:\xampp\htdocs\limme\wp-includes\update.php(327): get_site_transient('update_plugins')
+#4 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): wp_update_plugins()
+#5 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\limme\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\limme\wp-cron.php(188): do_action_ref_array('wp_update_plugi...', Array)
+#8 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\lte-ext\inc\update.php on line 86
+
+2023-03-09T07:40:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-content\plugins\unyson\framework\helpers\class-fw-db-options-model.php on line 1
+
+2023-03-09T07:56:18+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\limme\wp-content\plugins\lte-ext\inc\update.php:86
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(310): ltx_push_update(Object(stdClass))
+#1 C:\xampp\htdocs\limme\wp-includes\plugin.php(205): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 C:\xampp\htdocs\limme\wp-includes\option.php(1986): apply_filters('site_transient_...', Object(stdClass), 'update_plugins')
+#3 C:\xampp\htdocs\limme\wp-content\themes\limme\inc\plugins\class-tgm-plugin-activation.php(1851): get_site_transient('update_plugins')
+#4 C:\xampp\htdocs\limme\wp-content\themes\limme\inc\plugins\class-tgm-plugin-activation.php(1709): TGM_Plugin_Activation->does_plugin_have_update('elementor')
+#5 C:\xampp\htdocs\limme\wp-content\themes\limme\inc\plugins\class-tgm-plugin-activation.php(408): TGM_Plugin_Activation->is_tgmpa_complete()
+#6 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): TGM_Plugin_Activation->init('')
+#7 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\limme\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\limme\wp-settings.php(617): do_action('init')
+#10 C:\xampp\htdocs\limme\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\limme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\limme\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\limme\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\lte-ext\inc\update.php on line 86
+
+2023-03-09T08:00:46+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-includes\Requests\Transport\cURL.php on line 165
+

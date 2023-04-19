@@ -1,0 +1,17 @@
+2023-03-23T06:03:03+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\limme\wp-content\plugins\lte-ext\inc\update.php:86
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(310): ltx_push_update(Object(stdClass))
+#1 C:\xampp\htdocs\limme\wp-includes\plugin.php(205): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 C:\xampp\htdocs\limme\wp-includes\option.php(1986): apply_filters('site_transient_...', Object(stdClass), 'update_plugins')
+#3 C:\xampp\htdocs\limme\wp-includes\update.php(327): get_site_transient('update_plugins')
+#4 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): wp_update_plugins()
+#5 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\limme\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\limme\wp-cron.php(188): do_action_ref_array('wp_update_plugi...', Array)
+#8 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\lte-ext\inc\update.php on line 86
+
+2023-03-23T06:19:56+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-includes\plugin.php on line 173
+
+2023-03-23T06:32:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\src\Admin\Features\Features.php on line 120
+

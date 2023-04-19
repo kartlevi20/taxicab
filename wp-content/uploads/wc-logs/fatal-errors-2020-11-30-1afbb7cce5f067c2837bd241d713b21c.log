@@ -1,0 +1,24 @@
+2020-11-30T20:23:35+00:00 CRITICAL Uncaught Error: Call to undefined function limmo_paging_nav() in C:\www\limme\wp-content\themes\limme\archive-rental.php:101
+Stack trace:
+#0 C:\www\limme\wp-includes\template-loader.php(106): include()
+#1 C:\www\limme\wp-blog-header.php(19): require_once('C:\\www\\limme\\wp...')
+#2 C:\www\limme\index.php(17): require('C:\\www\\limme\\wp...')
+#3 {main}
+  thrown in C:\www\limme\wp-content\themes\limme\archive-rental.php on line 101
+
+2020-11-30T20:49:49+00:00 CRITICAL Uncaught Error: Call to undefined function limmo_paging_nav() in C:\www\limme\wp-content\themes\limme\archive-rental.php:101
+Stack trace:
+#0 C:\www\limme\wp-includes\template-loader.php(106): include()
+#1 C:\www\limme\wp-blog-header.php(19): require_once('C:\\www\\limme\\wp...')
+#2 C:\www\limme\index.php(17): require('C:\\www\\limme\\wp...')
+#3 {main}
+  thrown in C:\www\limme\wp-content\themes\limme\archive-rental.php on line 101
+
+2020-11-30T21:15:01+00:00 CRITICAL Uncaught Error: Call to undefined function limmo_paging_nav() in C:\www\limme\wp-content\themes\limme\archive-rental.php:101
+Stack trace:
+#0 C:\www\limme\wp-includes\template-loader.php(106): include()
+#1 C:\www\limme\wp-blog-header.php(19): require_once('C:\\www\\limme\\wp...')
+#2 C:\www\limme\index.php(17): require('C:\\www\\limme\\wp...')
+#3 {main}
+  thrown in C:\www\limme\wp-content\themes\limme\archive-rental.php on line 101
+

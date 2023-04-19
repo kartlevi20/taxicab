@@ -1,0 +1,289 @@
+2023-03-07T06:12:29+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\limme\wp-content\plugins\lte-ext\inc\update.php:86
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(310): ltx_push_update(Object(stdClass))
+#1 C:\xampp\htdocs\limme\wp-includes\plugin.php(205): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 C:\xampp\htdocs\limme\wp-includes\option.php(1986): apply_filters('site_transient_...', Object(stdClass), 'update_plugins')
+#3 C:\xampp\htdocs\limme\wp-content\themes\limme\inc\plugins\class-tgm-plugin-activation.php(1851): get_site_transient('update_plugins')
+#4 C:\xampp\htdocs\limme\wp-content\themes\limme\inc\plugins\class-tgm-plugin-activation.php(1709): TGM_Plugin_Activation->does_plugin_have_update('elementor')
+#5 C:\xampp\htdocs\limme\wp-content\themes\limme\inc\plugins\class-tgm-plugin-activation.php(408): TGM_Plugin_Activation->is_tgmpa_complete()
+#6 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): TGM_Plugin_Activation->init('')
+#7 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\limme\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\limme\wp-settings.php(617): do_action('init')
+#10 C:\xampp\htdocs\limme\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\limme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\limme\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\limme\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\lte-ext\inc\update.php on line 86
+
+2023-03-07T06:12:29+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\limme\wp-content\plugins\lte-ext\inc\update.php:86
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(310): ltx_push_update(Object(stdClass))
+#1 C:\xampp\htdocs\limme\wp-includes\plugin.php(205): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 C:\xampp\htdocs\limme\wp-includes\option.php(1986): apply_filters('site_transient_...', Object(stdClass), 'update_plugins')
+#3 C:\xampp\htdocs\limme\wp-content\themes\limme\inc\plugins\class-tgm-plugin-activation.php(1851): get_site_transient('update_plugins')
+#4 C:\xampp\htdocs\limme\wp-content\themes\limme\inc\plugins\class-tgm-plugin-activation.php(1709): TGM_Plugin_Activation->does_plugin_have_update('elementor')
+#5 C:\xampp\htdocs\limme\wp-content\themes\limme\inc\plugins\class-tgm-plugin-activation.php(408): TGM_Plugin_Activation->is_tgmpa_complete()
+#6 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): TGM_Plugin_Activation->init('')
+#7 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\limme\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\limme\wp-settings.php(617): do_action('init')
+#10 C:\xampp\htdocs\limme\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\limme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\limme\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\limme\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\lte-ext\inc\update.php on line 86
+
+2023-03-07T06:13:04+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:864
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(778): ActionScheduler_DBStore->claim_actions(26887, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\limme\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\limme\wp-cron.php(188): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 864
+
+2023-03-07T06:13:06+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:864
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(778): ActionScheduler_DBStore->claim_actions(26888, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\limme\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\limme\wp-cron.php(188): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 864
+
+2023-03-07T06:15:49+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\limme\wp-content\plugins\lte-ext\inc\update.php:86
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(310): ltx_push_update(Object(stdClass))
+#1 C:\xampp\htdocs\limme\wp-includes\plugin.php(205): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 C:\xampp\htdocs\limme\wp-includes\option.php(1986): apply_filters('site_transient_...', Object(stdClass), 'update_plugins')
+#3 C:\xampp\htdocs\limme\wp-includes\update.php(327): get_site_transient('update_plugins')
+#4 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): wp_update_plugins()
+#5 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\limme\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\limme\wp-cron.php(188): do_action_ref_array('wp_update_plugi...', Array)
+#8 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\lte-ext\inc\update.php on line 86
+
+2023-03-07T06:17:21+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:864
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(778): ActionScheduler_DBStore->claim_actions(26889, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\limme\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\limme\wp-cron.php(188): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 864
+
+2023-03-07T06:19:18+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:864
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(778): ActionScheduler_DBStore->claim_actions(26890, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\limme\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\limme\wp-cron.php(188): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 864
+
+2023-03-07T06:21:18+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:864
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(778): ActionScheduler_DBStore->claim_actions(26891, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\limme\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\limme\wp-cron.php(188): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 864
+
+2023-03-07T06:23:30+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:864
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(778): ActionScheduler_DBStore->claim_actions(26892, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\limme\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\limme\wp-cron.php(188): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 864
+
+2023-03-07T06:24:41+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:864
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(778): ActionScheduler_DBStore->claim_actions(26893, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\limme\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\limme\wp-cron.php(188): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 864
+
+2023-03-07T06:25:52+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:864
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(778): ActionScheduler_DBStore->claim_actions(26894, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\limme\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\limme\wp-cron.php(188): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 864
+
+2023-03-07T06:26:59+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:864
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(778): ActionScheduler_DBStore->claim_actions(26895, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\limme\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\limme\wp-cron.php(188): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 864
+
+2023-03-07T06:28:03+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\limme\wp-content\plugins\lte-ext\inc\update.php:86
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(310): ltx_push_update(Object(stdClass))
+#1 C:\xampp\htdocs\limme\wp-includes\plugin.php(205): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 C:\xampp\htdocs\limme\wp-includes\option.php(1986): apply_filters('site_transient_...', Object(stdClass), 'update_plugins')
+#3 C:\xampp\htdocs\limme\wp-content\themes\limme\inc\plugins\class-tgm-plugin-activation.php(1851): get_site_transient('update_plugins')
+#4 C:\xampp\htdocs\limme\wp-content\themes\limme\inc\plugins\class-tgm-plugin-activation.php(1709): TGM_Plugin_Activation->does_plugin_have_update('elementor')
+#5 C:\xampp\htdocs\limme\wp-content\themes\limme\inc\plugins\class-tgm-plugin-activation.php(408): TGM_Plugin_Activation->is_tgmpa_complete()
+#6 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): TGM_Plugin_Activation->init('')
+#7 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\limme\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\limme\wp-settings.php(617): do_action('init')
+#10 C:\xampp\htdocs\limme\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\limme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\limme\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\limme\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\lte-ext\inc\update.php on line 86
+
+2023-03-07T06:28:04+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:864
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(778): ActionScheduler_DBStore->claim_actions(26896, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\limme\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\limme\wp-cron.php(188): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 864
+
+2023-03-07T06:28:18+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\limme\wp-content\plugins\lte-ext\inc\update.php:86
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(310): ltx_push_update(Object(stdClass))
+#1 C:\xampp\htdocs\limme\wp-includes\plugin.php(205): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 C:\xampp\htdocs\limme\wp-includes\option.php(1986): apply_filters('site_transient_...', Object(stdClass), 'update_plugins')
+#3 C:\xampp\htdocs\limme\wp-content\themes\limme\inc\plugins\class-tgm-plugin-activation.php(1851): get_site_transient('update_plugins')
+#4 C:\xampp\htdocs\limme\wp-content\themes\limme\inc\plugins\class-tgm-plugin-activation.php(1709): TGM_Plugin_Activation->does_plugin_have_update('elementor')
+#5 C:\xampp\htdocs\limme\wp-content\themes\limme\inc\plugins\class-tgm-plugin-activation.php(408): TGM_Plugin_Activation->is_tgmpa_complete()
+#6 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): TGM_Plugin_Activation->init('')
+#7 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\limme\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\limme\wp-settings.php(617): do_action('init')
+#10 C:\xampp\htdocs\limme\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\limme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\limme\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\limme\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\lte-ext\inc\update.php on line 86
+
+2023-03-07T06:29:28+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:864
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(778): ActionScheduler_DBStore->claim_actions(26897, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\limme\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\limme\wp-cron.php(188): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 864
+
+2023-03-07T06:34:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-includes\blocks.php on line 324
+
+2023-03-07T06:34:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-includes\blocks.php on line 324
+
+2023-03-07T06:34:29+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-includes\functions.php on line 4541
+
+2023-03-07T06:34:29+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-includes\functions.php on line 4541
+
+2023-03-07T06:35:07+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:864
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(778): ActionScheduler_DBStore->claim_actions(26898, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\limme\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\limme\wp-cron.php(188): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 864
+
+2023-03-07T06:35:51+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:864
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(778): ActionScheduler_DBStore->claim_actions(26899, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\limme\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\limme\wp-cron.php(188): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 864
+
+2023-03-07T06:39:03+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-includes\Requests\Transport\cURL.php on line 462
+
+2023-03-07T06:39:46+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:864
+Stack trace:
+#0 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(778): ActionScheduler_DBStore->claim_actions(26900, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(308): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\limme\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\limme\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\limme\wp-cron.php(188): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 864
+
+2023-03-07T06:51:03+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-includes\functions.php on line 4541
+
+2023-03-07T07:54:27+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-includes\class-wpdb.php on line 2187
+
+2023-03-07T09:55:43+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-content\plugins\contact-form-7\modules\reflection.php on line 9
+
+2023-03-07T10:31:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-includes\functions.php on line 4541
+
+2023-03-07T10:31:13+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-includes\class-wp-rewrite.php on line 372
+
+2023-03-07T11:58:34+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-content\plugins\elementor\modules\compatibility-tag\module.php on line 8
+
+2023-03-07T11:58:49+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\src\Admin\API\Customers.php on line 10
+
+2023-03-07T11:58:50+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-includes\class-wpdb.php on line 2187
+
+2023-03-07T11:58:50+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\src\Admin\API\Reports\Import\Controller.php on line 10
+
+2023-03-07T11:58:50+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\src\Admin\API\Reports\Products\Controller.php on line 10
+
+2023-03-07T11:58:50+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\src\Admin\API\Reports\Variations\Controller.php on line 10
+

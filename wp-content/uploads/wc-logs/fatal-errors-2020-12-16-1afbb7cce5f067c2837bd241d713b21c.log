@@ -1,0 +1,24 @@
+2020-12-16T20:52:52+00:00 CRITICAL Uncaught Error: Call to undefined function fw_get_db_post_option() in C:\www\limme\wp-content\themes\limme\functions.php:9
+Stack trace:
+#0 C:\www\limme\wp-settings.php(525): include()
+#1 C:\www\limme\wp-config.php(90): require_once('C:\\www\\limme\\wp...')
+#2 C:\www\limme\wp-load.php(37): require_once('C:\\www\\limme\\wp...')
+#3 C:\www\limme\wp-blog-header.php(13): require_once('C:\\www\\limme\\wp...')
+#4 C:\www\limme\index.php(17): require('C:\\www\\limme\\wp...')
+#5 {main}
+  thrown in C:\www\limme\wp-content\themes\limme\functions.php on line 9
+
+2020-12-16T20:53:11+00:00 CRITICAL Uncaught Error: Call to a member function get_queried_object_id() on null in C:\www\limme\wp-content\themes\limme\functions.php:1016
+Stack trace:
+#0 C:\www\limme\wp-includes\class-wp-hook.php(287): limme_pingback_header('')
+#1 C:\www\limme\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\www\limme\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\www\limme\wp-includes\general-template.php(3005): do_action('wp_head')
+#4 C:\www\limme\wp-content\themes\limme\header.php(13): wp_head()
+#5 C:\www\limme\wp-includes\template.php(730): require_once('C:\\www\\limme\\wp...')
+#6 C:\www\limme\wp-includes\template.php(676): load_template('C:\\www\\limme/wp...', true, Array)
+#7 C:\www\limme\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 C:\www\limme\wp-content\themes\limme\page.php(54): get_header()
+#9 C:\www\limme\wp-includes\template.php(732): require('C:\\www\\limme\\wp...')
+#10 C:\www\limme\wp-includes\template.php(676): load_template('C:\\www\\ in C:\www\limme\wp-content\themes\limme\functions.php on line 1016
+

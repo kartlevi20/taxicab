@@ -1,0 +1,20 @@
+2023-03-22T06:22:52+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php on line 65
+
+2023-03-22T07:28:53+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-includes\post.php on line 3271
+
+2023-03-22T07:36:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-includes\class-wpdb.php on line 2187
+
+2023-03-22T07:36:51+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-content\plugins\lte-ext\elementor\controls\control-section.php on line 1
+
+2023-03-22T07:36:52+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-includes\class-wpdb.php on line 2187
+
+2023-03-22T07:37:00+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-includes\functions.php on line 6620
+
+2023-03-22T07:37:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-content\plugins\elementor\core\kits\controls\repeater.php on line 6
+
+2023-03-22T07:37:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-content\plugins\elementor\includes\controls\groups\base.php on line 327
+
+2023-03-22T08:05:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-includes\functions.php on line 4541
+
+2023-03-22T10:37:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\limme\wp-includes\functions.php on line 4541
+
